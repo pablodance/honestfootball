@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD81FFA51BB7395E0099BD6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81FFA41BB7395E0099BD6D /* main.m */; };
+		BD81FFA81BB7395E0099BD6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81FFA71BB7395E0099BD6D /* AppDelegate.m */; };
+		BD81FFAB1BB7395E0099BD6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81FFAA1BB7395E0099BD6D /* ViewController.m */; };
+		BD81FFAE1BB7395E0099BD6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD81FFAC1BB7395E0099BD6D /* Main.storyboard */; };
+		BD81FFB11BB7395E0099BD6D /* honestfootball.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD81FFAF1BB7395E0099BD6D /* honestfootball.xcdatamodeld */; };
+		BD81FFB31BB7395E0099BD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD81FFB21BB7395E0099BD6D /* Assets.xcassets */; };
+		BD81FFB61BB7395E0099BD6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD81FFB41BB7395E0099BD6D /* LaunchScreen.storyboard */; };
+		BD81FFC11BB7395E0099BD6D /* honestfootballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81FFC01BB7395E0099BD6D /* honestfootballTests.m */; };
+		BD81FFCC1BB7395E0099BD6D /* honestfootballUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81FFCB1BB7395E0099BD6D /* honestfootballUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD81FFBD1BB7395E0099BD6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD81FF981BB7395E0099BD6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD81FF9F1BB7395E0099BD6D;
+			remoteInfo = honestfootball;
+		};
+		BD81FFC81BB7395E0099BD6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD81FF981BB7395E0099BD6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD81FF9F1BB7395E0099BD6D;
+			remoteInfo = honestfootball;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD81FFA01BB7395E0099BD6D /* honestfootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = honestfootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD81FFA41BB7395E0099BD6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD81FFA61BB7395E0099BD6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD81FFA71BB7395E0099BD6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD81FFA91BB7395E0099BD6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD81FFAA1BB7395E0099BD6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD81FFAD1BB7395E0099BD6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD81FFB01BB7395E0099BD6D /* honestfootball.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = honestfootball.xcdatamodel; sourceTree = "<group>"; };
+		BD81FFB21BB7395E0099BD6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD81FFB51BB7395E0099BD6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD81FFB71BB7395E0099BD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD81FFBC1BB7395E0099BD6D /* honestfootballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = honestfootballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD81FFC01BB7395E0099BD6D /* honestfootballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = honestfootballTests.m; sourceTree = "<group>"; };
+		BD81FFC21BB7395E0099BD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD81FFC71BB7395E0099BD6D /* honestfootballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = honestfootballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD81FFCB1BB7395E0099BD6D /* honestfootballUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = honestfootballUITests.m; sourceTree = "<group>"; };
+		BD81FFCD1BB7395E0099BD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD81FF9D1BB7395E0099BD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD81FFB91BB7395E0099BD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD81FFC41BB7395E0099BD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD81FF971BB7395E0099BD6D = {
+			isa = PBXGroup;
+			children = (
+				BD81FFA21BB7395E0099BD6D /* honestfootball */,
+				BD81FFBF1BB7395E0099BD6D /* honestfootballTests */,
+				BD81FFCA1BB7395E0099BD6D /* honestfootballUITests */,
+				BD81FFA11BB7395E0099BD6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD81FFA11BB7395E0099BD6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD81FFA01BB7395E0099BD6D /* honestfootball.app */,
+				BD81FFBC1BB7395E0099BD6D /* honestfootballTests.xctest */,
+				BD81FFC71BB7395E0099BD6D /* honestfootballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD81FFA21BB7395E0099BD6D /* honestfootball */ = {
+			isa = PBXGroup;
+			children = (
+				BD81FFA61BB7395E0099BD6D /* AppDelegate.h */,
+				BD81FFA71BB7395E0099BD6D /* AppDelegate.m */,
+				BD81FFA91BB7395E0099BD6D /* ViewController.h */,
+				BD81FFAA1BB7395E0099BD6D /* ViewController.m */,
+				BD81FFAC1BB7395E0099BD6D /* Main.storyboard */,
+				BD81FFB21BB7395E0099BD6D /* Assets.xcassets */,
+				BD81FFB41BB7395E0099BD6D /* LaunchScreen.storyboard */,
+				BD81FFB71BB7395E0099BD6D /* Info.plist */,
+				BD81FFAF1BB7395E0099BD6D /* honestfootball.xcdatamodeld */,
+				BD81FFA31BB7395E0099BD6D /* Supporting Files */,
+			);
+			path = honestfootball;
+			sourceTree = "<group>";
+		};
+		BD81FFA31BB7395E0099BD6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD81FFA41BB7395E0099BD6D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD81FFBF1BB7395E0099BD6D /* honestfootballTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD81FFC01BB7395E0099BD6D /* honestfootballTests.m */,
+				BD81FFC21BB7395E0099BD6D /* Info.plist */,
+			);
+			path = honestfootballTests;
+			sourceTree = "<group>";
+		};
+		BD81FFCA1BB7395E0099BD6D /* honestfootballUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD81FFCB1BB7395E0099BD6D /* honestfootballUITests.m */,
+				BD81FFCD1BB7395E0099BD6D /* Info.plist */,
+			);
+			path = honestfootballUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD81FF9F1BB7395E0099BD6D /* honestfootball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD81FFD01BB7395E0099BD6D /* Build configuration list for PBXNativeTarget "honestfootball" */;
+			buildPhases = (
+				BD81FF9C1BB7395E0099BD6D /* Sources */,
+				BD81FF9D1BB7395E0099BD6D /* Frameworks */,
+				BD81FF9E1BB7395E0099BD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = honestfootball;
+			productName = honestfootball;
+			productReference = BD81FFA01BB7395E0099BD6D /* honestfootball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD81FFBB1BB7395E0099BD6D /* honestfootballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD81FFD31BB7395E0099BD6D /* Build configuration list for PBXNativeTarget "honestfootballTests" */;
+			buildPhases = (
+				BD81FFB81BB7395E0099BD6D /* Sources */,
+				BD81FFB91BB7395E0099BD6D /* Frameworks */,
+				BD81FFBA1BB7395E0099BD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD81FFBE1BB7395E0099BD6D /* PBXTargetDependency */,
+			);
+			name = honestfootballTests;
+			productName = honestfootballTests;
+			productReference = BD81FFBC1BB7395E0099BD6D /* honestfootballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD81FFC61BB7395E0099BD6D /* honestfootballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD81FFD61BB7395E0099BD6D /* Build configuration list for PBXNativeTarget "honestfootballUITests" */;
+			buildPhases = (
+				BD81FFC31BB7395E0099BD6D /* Sources */,
+				BD81FFC41BB7395E0099BD6D /* Frameworks */,
+				BD81FFC51BB7395E0099BD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD81FFC91BB7395E0099BD6D /* PBXTargetDependency */,
+			);
+			name = honestfootballUITests;
+			productName = honestfootballUITests;
+			productReference = BD81FFC71BB7395E0099BD6D /* honestfootballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD81FF981BB7395E0099BD6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = CavalryCreative;
+				TargetAttributes = {
+					BD81FF9F1BB7395E0099BD6D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BD81FFBB1BB7395E0099BD6D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BD81FF9F1BB7395E0099BD6D;
+					};
+					BD81FFC61BB7395E0099BD6D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BD81FF9F1BB7395E0099BD6D;
+					};
+				};
+			};
+			buildConfigurationList = BD81FF9B1BB7395E0099BD6D /* Build configuration list for PBXProject "honestfootball" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD81FF971BB7395E0099BD6D;
+			productRefGroup = BD81FFA11BB7395E0099BD6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD81FF9F1BB7395E0099BD6D /* honestfootball */,
+				BD81FFBB1BB7395E0099BD6D /* honestfootballTests */,
+				BD81FFC61BB7395E0099BD6D /* honestfootballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD81FF9E1BB7395E0099BD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD81FFB61BB7395E0099BD6D /* LaunchScreen.storyboard in Resources */,
+				BD81FFB31BB7395E0099BD6D /* Assets.xcassets in Resources */,
+				BD81FFAE1BB7395E0099BD6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD81FFBA1BB7395E0099BD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD81FFC51BB7395E0099BD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD81FF9C1BB7395E0099BD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD81FFAB1BB7395E0099BD6D /* ViewController.m in Sources */,
+				BD81FFA81BB7395E0099BD6D /* AppDelegate.m in Sources */,
+				BD81FFA51BB7395E0099BD6D /* main.m in Sources */,
+				BD81FFB11BB7395E0099BD6D /* honestfootball.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD81FFB81BB7395E0099BD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD81FFC11BB7395E0099BD6D /* honestfootballTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD81FFC31BB7395E0099BD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD81FFCC1BB7395E0099BD6D /* honestfootballUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD81FFBE1BB7395E0099BD6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD81FF9F1BB7395E0099BD6D /* honestfootball */;
+			targetProxy = BD81FFBD1BB7395E0099BD6D /* PBXContainerItemProxy */;
+		};
+		BD81FFC91BB7395E0099BD6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD81FF9F1BB7395E0099BD6D /* honestfootball */;
+			targetProxy = BD81FFC81BB7395E0099BD6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD81FFAC1BB7395E0099BD6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD81FFAD1BB7395E0099BD6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD81FFB41BB7395E0099BD6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD81FFB51BB7395E0099BD6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD81FFCE1BB7395E0099BD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD81FFCF1BB7395E0099BD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD81FFD11BB7395E0099BD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = honestfootball/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CavalryCreative.honestfootball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD81FFD21BB7395E0099BD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = honestfootball/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CavalryCreative.honestfootball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD81FFD41BB7395E0099BD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = honestfootballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CavalryCreative.honestfootballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/honestfootball.app/honestfootball";
+			};
+			name = Debug;
+		};
+		BD81FFD51BB7395E0099BD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = honestfootballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CavalryCreative.honestfootballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/honestfootball.app/honestfootball";
+			};
+			name = Release;
+		};
+		BD81FFD71BB7395E0099BD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = honestfootballUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CavalryCreative.honestfootballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = honestfootball;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BD81FFD81BB7395E0099BD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = honestfootballUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CavalryCreative.honestfootballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = honestfootball;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD81FF9B1BB7395E0099BD6D /* Build configuration list for PBXProject "honestfootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD81FFCE1BB7395E0099BD6D /* Debug */,
+				BD81FFCF1BB7395E0099BD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD81FFD01BB7395E0099BD6D /* Build configuration list for PBXNativeTarget "honestfootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD81FFD11BB7395E0099BD6D /* Debug */,
+				BD81FFD21BB7395E0099BD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD81FFD31BB7395E0099BD6D /* Build configuration list for PBXNativeTarget "honestfootballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD81FFD41BB7395E0099BD6D /* Debug */,
+				BD81FFD51BB7395E0099BD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD81FFD61BB7395E0099BD6D /* Build configuration list for PBXNativeTarget "honestfootballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD81FFD71BB7395E0099BD6D /* Debug */,
+				BD81FFD81BB7395E0099BD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD81FFAF1BB7395E0099BD6D /* honestfootball.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD81FFB01BB7395E0099BD6D /* honestfootball.xcdatamodel */,
+			);
+			currentVersion = BD81FFB01BB7395E0099BD6D /* honestfootball.xcdatamodel */;
+			path = honestfootball.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD81FF981BB7395E0099BD6D /* Project object */;
+}

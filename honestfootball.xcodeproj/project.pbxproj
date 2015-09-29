@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD4B783A1BB8583900864A95 /* welcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4B78391BB8583900864A95 /* welcomePage.swift */; settings = {ASSET_TAGS = (); }; };
 		BD81FFA51BB7395E0099BD6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81FFA41BB7395E0099BD6D /* main.m */; };
 		BD81FFA81BB7395E0099BD6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81FFA71BB7395E0099BD6D /* AppDelegate.m */; };
 		BD81FFAB1BB7395E0099BD6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81FFAA1BB7395E0099BD6D /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD4B78381BB8583800864A95 /* honestfootball-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "honestfootball-Bridging-Header.h"; sourceTree = "<group>"; };
+		BD4B78391BB8583900864A95 /* welcomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomePage.swift; sourceTree = "<group>"; };
 		BD81FFA01BB7395E0099BD6D /* honestfootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = honestfootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD81FFA41BB7395E0099BD6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD81FFA61BB7395E0099BD6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				BD81FFB71BB7395E0099BD6D /* Info.plist */,
 				BD81FFAF1BB7395E0099BD6D /* honestfootball.xcdatamodeld */,
 				BD81FFA31BB7395E0099BD6D /* Supporting Files */,
+				BD4B78391BB8583900864A95 /* welcomePage.swift */,
+				BD4B78381BB8583800864A95 /* honestfootball-Bridging-Header.h */,
 			);
 			path = honestfootball;
 			sourceTree = "<group>";
@@ -205,11 +210,13 @@
 		BD81FF981BB7395E0099BD6D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = CavalryCreative;
 				TargetAttributes = {
 					BD81FF9F1BB7395E0099BD6D = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = LLV6J4R5F4;
 					};
 					BD81FFBB1BB7395E0099BD6D = {
 						CreatedOnToolsVersion = 7.0;
@@ -273,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4B783A1BB8583900864A95 /* welcomePage.swift in Sources */,
 				BD81FFAB1BB7395E0099BD6D /* ViewController.m in Sources */,
 				BD81FFA81BB7395E0099BD6D /* AppDelegate.m in Sources */,
 				BD81FFA51BB7395E0099BD6D /* main.m in Sources */,
@@ -417,10 +425,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = honestfootball/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CavalryCreative.honestfootball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "honestfootball/honestfootball-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -428,10 +443,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = honestfootball/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CavalryCreative.honestfootball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "honestfootball/honestfootball-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -502,6 +523,7 @@
 				BD81FFD21BB7395E0099BD6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD81FFD31BB7395E0099BD6D /* Build configuration list for PBXNativeTarget "honestfootballTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +532,7 @@
 				BD81FFD51BB7395E0099BD6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD81FFD61BB7395E0099BD6D /* Build configuration list for PBXNativeTarget "honestfootballUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +541,7 @@
 				BD81FFD81BB7395E0099BD6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

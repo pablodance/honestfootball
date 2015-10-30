@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD4B783A1BB8583900864A95 /* welcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4B78391BB8583900864A95 /* welcomePage.swift */; settings = {ASSET_TAGS = (); }; };
+		BD4B783A1BB8583900864A95 /* welcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4B78391BB8583900864A95 /* welcomePage.swift */; };
+		BD7ACA251BE40E5B00390422 /* WelcomePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7ACA241BE40E5B00390422 /* WelcomePickerView.swift */; };
 		BD81FFA51BB7395E0099BD6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81FFA41BB7395E0099BD6D /* main.m */; };
 		BD81FFA81BB7395E0099BD6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81FFA71BB7395E0099BD6D /* AppDelegate.m */; };
 		BD81FFAB1BB7395E0099BD6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81FFAA1BB7395E0099BD6D /* ViewController.m */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		BD4B78381BB8583800864A95 /* honestfootball-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "honestfootball-Bridging-Header.h"; sourceTree = "<group>"; };
 		BD4B78391BB8583900864A95 /* welcomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomePage.swift; sourceTree = "<group>"; };
+		BD7ACA241BE40E5B00390422 /* WelcomePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomePickerView.swift; path = honestfootball/WelcomePickerView.swift; sourceTree = "<group>"; };
 		BD81FFA01BB7395E0099BD6D /* honestfootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = honestfootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD81FFA41BB7395E0099BD6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD81FFA61BB7395E0099BD6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		BD81FF971BB7395E0099BD6D = {
 			isa = PBXGroup;
 			children = (
+				BD7ACA241BE40E5B00390422 /* WelcomePickerView.swift */,
 				BD81FFA21BB7395E0099BD6D /* honestfootball */,
 				BD81FFBF1BB7395E0099BD6D /* honestfootballTests */,
 				BD81FFCA1BB7395E0099BD6D /* honestfootballUITests */,
@@ -285,6 +288,7 @@
 				BD81FFA81BB7395E0099BD6D /* AppDelegate.m in Sources */,
 				BD81FFA51BB7395E0099BD6D /* main.m in Sources */,
 				BD81FFB11BB7395E0099BD6D /* honestfootball.xcdatamodeld in Sources */,
+				BD7ACA251BE40E5B00390422 /* WelcomePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

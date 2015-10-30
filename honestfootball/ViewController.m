@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *teamLbl;
+@property (weak, nonatomic) IBOutlet UIPickerView *pickerv;
 
 @end
 

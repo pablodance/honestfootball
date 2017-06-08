@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02224D491EE8AA3000EFDCD3 /* mainview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02224D481EE8AA3000EFDCD3 /* mainview.swift */; };
+		02224D4B1EE9FCC500EFDCD3 /* overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02224D4A1EE9FCC500EFDCD3 /* overlay.swift */; };
 		BD4B783A1BB8583900864A95 /* welcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4B78391BB8583900864A95 /* welcomePage.swift */; };
 		BD7ACA251BE40E5B00390422 /* WelcomePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7ACA241BE40E5B00390422 /* WelcomePickerView.swift */; };
 		BD81FFA51BB7395E0099BD6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81FFA41BB7395E0099BD6D /* main.m */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02224D481EE8AA3000EFDCD3 /* mainview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainview.swift; sourceTree = "<group>"; };
+		02224D4A1EE9FCC500EFDCD3 /* overlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = overlay.swift; sourceTree = "<group>"; };
 		BD4B78381BB8583800864A95 /* honestfootball-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "honestfootball-Bridging-Header.h"; sourceTree = "<group>"; };
 		BD4B78391BB8583900864A95 /* welcomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomePage.swift; sourceTree = "<group>"; };
 		BD7ACA241BE40E5B00390422 /* WelcomePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomePickerView.swift; path = honestfootball/WelcomePickerView.swift; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 				BD81FFA91BB7395E0099BD6D /* ViewController.h */,
 				BD81FFAA1BB7395E0099BD6D /* ViewController.m */,
 				BD81FFAC1BB7395E0099BD6D /* Main.storyboard */,
+				02224D4A1EE9FCC500EFDCD3 /* overlay.swift */,
+				02224D481EE8AA3000EFDCD3 /* mainview.swift */,
 				BD81FFB21BB7395E0099BD6D /* Assets.xcassets */,
 				BD81FFB41BB7395E0099BD6D /* LaunchScreen.storyboard */,
 				BD81FFB71BB7395E0099BD6D /* Info.plist */,
@@ -219,7 +225,8 @@
 				TargetAttributes = {
 					BD81FF9F1BB7395E0099BD6D = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = LLV6J4R5F4;
+						DevelopmentTeam = N5A42FM9SH;
+						LastSwiftMigration = 0830;
 					};
 					BD81FFBB1BB7395E0099BD6D = {
 						CreatedOnToolsVersion = 7.0;
@@ -285,7 +292,9 @@
 			files = (
 				BD4B783A1BB8583900864A95 /* welcomePage.swift in Sources */,
 				BD81FFAB1BB7395E0099BD6D /* ViewController.m in Sources */,
+				02224D4B1EE9FCC500EFDCD3 /* overlay.swift in Sources */,
 				BD81FFA81BB7395E0099BD6D /* AppDelegate.m in Sources */,
+				02224D491EE8AA3000EFDCD3 /* mainview.swift in Sources */,
 				BD81FFA51BB7395E0099BD6D /* main.m in Sources */,
 				BD81FFB11BB7395E0099BD6D /* honestfootball.xcdatamodeld in Sources */,
 				BD7ACA251BE40E5B00390422 /* WelcomePickerView.swift in Sources */,
@@ -432,6 +441,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N5A42FM9SH;
 				INFOPLIST_FILE = honestfootball/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CavalryCreative.honestfootball;
@@ -439,6 +449,7 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "honestfootball/honestfootball-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -450,12 +461,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N5A42FM9SH;
 				INFOPLIST_FILE = honestfootball/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CavalryCreative.honestfootball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "honestfootball/honestfootball-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

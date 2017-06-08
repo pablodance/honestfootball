@@ -14,38 +14,61 @@ class WelcomePickerView: UIViewController, UIPickerViewDataSource,UIPickerViewDe
 
     @IBOutlet weak var uiPicker_teams: UIPickerView!
     @IBOutlet weak var lblWelcomeTeam: UILabel!
-    let pickerData = ["Mozzarella","Gorgonzola","Provolone","Brie","Maytag Blue","Sharp Cheddar","Monterrey Jack","Stilton","Gouda","Goat Cheese", "Asiago"]
+  
+    @IBOutlet weak var uiBtnCont: UIButton!
+   
+    let pickerData = ["AFC Bournmouth","Arsenal","Brighton","Burnley","Chelsea","Crystal Palace","Everton","Huddersfield","Leicester","Liverpool", "Man City", "Man Utd","Newcastle", "Southampton", "Stoke", "Swansea", "Tottenham",  "Watford", "West Brom", "West Ham Utd" ]
     override func viewDidLoad() {
         super.viewDidLoad()
         uiPicker_teams.dataSource = self
         uiPicker_teams.delegate = self
+        uiBtnCont.isEnabled = false
     }
     
-    
+    func textChanged(sender: NSNotification) {
+         if ((lblWelcomeTeam.text?.isEmpty) != nil){
+            uiBtnCont.isEnabled = true
+           
+        }
+        else {
+           uiBtnCont.isEnabled = false
+        }
+    }
     //MARK: - Delegates and data sources
     //MARK: Data Sources
-    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
-    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return pickerData.count
     }
     //MARK: Delegates
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return pickerData[row]
     }
     
-    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         lblWelcomeTeam.text = pickerData[row]
+         uiBtnCont.isEnabled = true
     }
     
     @IBOutlet weak var uipick: UIButton!
-    @IBAction func btnClick(sender: AnyObject) {
+    @IBAction func btnClick(_ sender: AnyObject) {
         if ((lblWelcomeTeam.text?.isEmpty) != nil){
-             print(lblWelcomeTeam.text);
+            
+            let defaults = UserDefaults.standard
+            defaults.set(lblWelcomeTeam.text, forKey: "team")
+            
+            
+              
+                      if let stringOne = defaults.string(forKey: "team") {
+                print(stringOne) // Some String Value
+            }
+
         }
         else{
-            print(lblWelcomeTeam.text);
+            print("tat");
+             
             
         }
     }

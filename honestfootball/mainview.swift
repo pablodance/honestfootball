@@ -16,6 +16,22 @@ class MainView: UIViewController {
         super.viewDidLoad()
         
       
+        let defaults = UserDefaults.standard
+       
+        
+        
+        
+        if let stringOne = defaults.string(forKey: "team") {
+            let li = "Liverpool"
+          
+            if stringOne == li{
+                self.view.backgroundColor = UIColor.black
+            }
+            
+        }
+        
+                
+      
     }
     class AlertHelper {
         func showAlert(fromController controller: UIViewController) {

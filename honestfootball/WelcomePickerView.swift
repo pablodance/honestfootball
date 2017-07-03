@@ -23,6 +23,8 @@ class WelcomePickerView: UIViewController, UIPickerViewDataSource,UIPickerViewDe
         uiPicker_teams.dataSource = self
         uiPicker_teams.delegate = self
         uiBtnCont.isEnabled = false
+        
+        
     }
     
     func textChanged(sender: NSNotification) {
